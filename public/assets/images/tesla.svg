@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title">
+  <title id="title">Tesla Model Y — SUV coupé électrique noir</title>
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f1e8"/>
+      <stop offset="100%" stop-color="#e6e1d3"/>
+    </linearGradient>
+    <linearGradient id="body4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2b30"/>
+      <stop offset="45%" stop-color="#111114"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg4)"/>
+  <ellipse cx="400" cy="345" rx="320" ry="26" fill="#000" opacity="0.12"/>
+
+  <path
+    d="M84 300
+       C84 272 108 254 140 252
+       L176 250
+       C222 196 292 168 356 166
+       L470 166
+       C520 170 560 196 588 232
+       L654 244
+       C688 250 712 266 716 292
+       L720 300
+       L84 300 Z"
+    fill="url(#body4)" stroke="#3a3a3f" stroke-width="2"
+  />
+  <path d="M186 250 C226 202 288 182 356 180 L466 180 C500 184 528 202 552 228 L580 250 Z"
+        fill="#c9d3da" opacity="0.9"/>
+  <line x1="366" y1="180" x2="376" y2="250" stroke="#101014" stroke-width="3"/>
+  <rect x="150" y="264" width="180" height="6" rx="3" fill="#c9a24b" opacity="0.85"/>
+  <rect x="490" y="258" width="150" height="6" rx="3" fill="#e0c274" opacity="0.85"/>
+  <path d="M140 300 L654 300" stroke="#c9a24b" stroke-width="3" opacity="0.7"/>
+
+  <circle cx="242" cy="300" r="42" fill="#040404" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="242" cy="300" r="30" fill="none" stroke="#6b6f75" stroke-width="2" opacity="0.6"/>
+  <circle cx="242" cy="300" r="14" fill="#8a8f96"/>
+  <circle cx="620" cy="300" r="42" fill="#040404" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="620" cy="300" r="30" fill="none" stroke="#6b6f75" stroke-width="2" opacity="0.6"/>
+  <circle cx="620" cy="300" r="14" fill="#8a8f96"/>
+
+  <text x="400" y="392" text-anchor="middle" fill="#3a3a3f" font-family="Arial, sans-serif" font-size="24" letter-spacing="3">TESLA MODEL Y — NOIR</text>
+</svg>

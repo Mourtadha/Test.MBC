@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Chauffeur professionnel Monaco Black Cars, silhouette élégante devant une berline</title>
+  <defs>
+    <linearGradient id="bgChauffeur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f1e8"/>
+      <stop offset="100%" stop-color="#e7e2d4"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgChauffeur)"/>
+  <rect width="800" height="600" fill="url(#spot)"/>
+
+  <!-- parked sedan silhouette in the background -->
+  <g opacity="0.85" transform="translate(120,360)">
+    <ellipse cx="260" cy="120" rx="250" ry="22" fill="#000" opacity="0.12"/>
+    <path d="M10 90 C10 66 30 52 56 50 L100 46 C130 16 174 -4 218 -6 L300 -6 C334 -4 362 12 382 34 L436 44 C460 48 478 60 482 82 L484 94 L10 94 Z"
+          fill="#17181c" stroke="#2a2a2e" stroke-width="2"/>
+    <path d="M104 48 C128 20 164 2 202 0 L284 0 C310 2 332 14 350 32 L350 48 Z" fill="#454d55" opacity="0.85"/>
+    <circle cx="104" cy="94" r="28" fill="#020202" stroke="#242424" stroke-width="3"/>
+    <circle cx="392" cy="94" r="28" fill="#020202" stroke="#242424" stroke-width="3"/>
+  </g>
+
+  <!-- chauffeur silhouette in a tailored suit -->
+  <g transform="translate(400,180)">
+    <circle cx="0" cy="0" r="58" fill="#1b1c22" stroke="#c9a24b" stroke-width="2" opacity="0.95"/>
+    <path d="M-90 260 C-90 160 -60 96 0 96 C60 96 90 160 90 260 Z" fill="#1b1c22" stroke="#c9a24b" stroke-width="2" opacity="0.95"/>
+    <path d="M-14 100 L0 130 L14 100 Z" fill="#c9a24b" opacity="0.9"/>
+    <rect x="-6" y="128" width="12" height="90" fill="#c9a24b" opacity="0.6"/>
+  </g>
+
+  <ellipse cx="400" cy="470" rx="160" ry="18" fill="#000" opacity="0.1"/>
+</svg>

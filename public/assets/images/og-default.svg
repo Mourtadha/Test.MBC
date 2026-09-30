@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">Monaco Black Cars</title>
+  <rect width="1200" height="630" fill="#0b0b0f"/>
+  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="#d4af37" stroke-width="6"/>
+  <text x="600" y="300" text-anchor="middle" fill="#d4af37" font-family="Georgia, serif" font-size="72" letter-spacing="4">MONACO</text>
+  <text x="600" y="380" text-anchor="middle" fill="#d4af37" font-family="Georgia, serif" font-size="72" letter-spacing="4">BLACK CARS</text>
+  <text x="600" y="440" text-anchor="middle" fill="#e6e6e6" font-family="Arial, sans-serif" font-size="26" letter-spacing="4">CHAUFFEUR PRIVÉ DE LUXE</text>
+</svg>

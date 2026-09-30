@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title">
+  <title id="title">Mercedes-Benz Classe V Luxury — van noir, 7 places</title>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f1e8"/>
+      <stop offset="100%" stop-color="#e6e1d3"/>
+    </linearGradient>
+    <linearGradient id="body3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2b30"/>
+      <stop offset="45%" stop-color="#111114"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg3)"/>
+  <ellipse cx="400" cy="345" rx="330" ry="26" fill="#000" opacity="0.12"/>
+
+  <path
+    d="M90 300
+       L90 218
+       C90 190 112 172 140 170
+       L640 170
+       C670 172 692 192 696 222
+       L698 300
+       Z"
+    fill="url(#body3)" stroke="#3a3a3f" stroke-width="2"
+  />
+  <path d="M140 190 C150 182 166 178 180 178 L210 178 L210 232 L150 232 Z" fill="#c9d3da" opacity="0.9"/>
+  <rect x="228" y="188" width="120" height="48" rx="6" fill="#c9d3da" opacity="0.9"/>
+  <rect x="360" y="188" width="120" height="48" rx="6" fill="#c9d3da" opacity="0.9"/>
+  <rect x="492" y="188" width="120" height="48" rx="6" fill="#c9d3da" opacity="0.9"/>
+
+  <path d="M222 250 L636 250" stroke="#5a5f66" stroke-width="2" opacity="0.7"/>
+  <path d="M356 176 L356 300" stroke="#101014" stroke-width="3" opacity="0.6"/>
+  <path d="M488 176 L488 300" stroke="#101014" stroke-width="3" opacity="0.6"/>
+  <path d="M90 300 L698 300" stroke="#c9a24b" stroke-width="3" opacity="0.8"/>
+
+  <circle cx="228" cy="300" r="44" fill="#040404" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="228" cy="300" r="19" fill="#8a8f96"/>
+  <circle cx="592" cy="300" r="44" fill="#040404" stroke="#2a2a2a" stroke-width="4"/>
+  <circle cx="592" cy="300" r="19" fill="#8a8f96"/>
+
+  <rect x="96" y="266" width="16" height="10" rx="3" fill="#c9a24b"/>
+  <rect x="676" y="262" width="16" height="8" rx="3" fill="#e0c274"/>
+
+  <text x="400" y="392" text-anchor="middle" fill="#8a6a2e" font-family="Georgia, serif" font-size="22" letter-spacing="2">MERCEDES CLASSE V LUXURY — NOIR, 7 PLACES</text>
+</svg>

@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f6f1;
+  --foreground: #1a1a1e;
+  --gold: #c9a24b;
+  --gold-light: #dcb968;
+  --gold-ink: #8a6a2e;
+  --surface: #ffffff;
+  --surface-alt: #f0ede4;
+  --ink: #14151b;
+  --ink-alt: #1d1e26;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-ink: var(--gold-ink);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-ink: var(--ink);
+  --color-ink-alt: var(--ink-alt);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.hero-shadow {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.35);
+}
+
+.divider-gold {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold) 50%,
+    transparent
+  );
+  height: 1px;
+}
+
+.card-hover {
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+  box-shadow: 0 20px 45px -22px rgba(201, 162, 75, 0.45);
+}
+
+

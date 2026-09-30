@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title">
+  <title id="title">Place du Casino et le Casino de Monte-Carlo, Monaco — Monaco Black Cars</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe3f5"/>
+      <stop offset="45%" stop-color="#e7f2ee"/>
+      <stop offset="100%" stop-color="#f7f3e8"/>
+    </linearGradient>
+    <linearGradient id="facade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3e6c9"/>
+      <stop offset="100%" stop-color="#e3cf9e"/>
+    </linearGradient>
+    <linearGradient id="dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fae9c"/>
+      <stop offset="100%" stop-color="#5c7d6b"/>
+    </linearGradient>
+    <linearGradient id="plaza" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8cfa8"/>
+      <stop offset="100%" stop-color="#c1b482"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="80%" cy="12%" r="30%">
+      <stop offset="0%" stop-color="#fff3d6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff3d6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#sun)"/>
+
+  <!-- soft clouds -->
+  <g fill="#ffffff" opacity="0.75">
+    <ellipse cx="220" cy="120" rx="70" ry="20"/>
+    <ellipse cx="270" cy="110" rx="50" ry="16"/>
+    <ellipse cx="1360" cy="150" rx="80" ry="22"/>
+    <ellipse cx="1420" cy="140" rx="55" ry="18"/>
+  </g>
+
+  <!-- distant palm-lined hillside behind the casino -->
+  <g fill="#cfe0d6" opacity="0.6">
+    <rect x="0" y="330" width="1600" height="70"/>
+  </g>
+
+  <!-- Casino de Monte-Carlo — symmetrical Belle Époque facade -->
+  <g transform="translate(300,300)">
+    <!-- side pavilions with green cupolas -->
+    <rect x="-40" y="60" width="140" height="180" fill="url(#facade)" stroke="#b89b5e" stroke-width="2"/>
+    <rect x="900" y="60" width="140" height="180" fill="url(#facade)" stroke="#b89b5e" stroke-width="2"/>
+    <path d="M-40 60 C-40 10 100 10 100 60 Z" fill="url(#dome)"/>
+    <path d="M900 60 C900 10 1040 10 1040 60 Z" fill="url(#dome)"/>
+    <circle cx="30" cy="6" r="6" fill="#8fae9c"/>
+    <circle cx="970" cy="6" r="6" fill="#8fae9c"/>
+
+    <!-- central body -->
+    <rect x="60" y="90" width="880" height="150" fill="url(#facade)" stroke="#b89b5e" stroke-width="2"/>
+    <!-- central dome -->
+    <path d="M380 90 C380 10 620 10 620 90 Z" fill="url(#dome)"/>
+    <circle cx="500" cy="4" r="8" fill="#8fae9c"/>
+
+    <!-- colonnade row -->
+    <g fill="#f7efd8" stroke="#c9b57f" stroke-width="1.5">
+      <rect x="90" y="120" width="18" height="90"/>
+      <rect x="150" y="120" width="18" height="90"/>
+      <rect x="210" y="120" width="18" height="90"/>
+      <rect x="270" y="120" width="18" height="90"/>
+      <rect x="330" y="120" width="18" height="90"/>
+      <rect x="660" y="120" width="18" height="90"/>
+      <rect x="720" y="120" width="18" height="90"/>
+      <rect x="780" y="120" width="18" height="90"/>
+      <rect x="840" y="120" width="18" height="90"/>
+      <rect x="900" y="120" width="18" height="90"/>
+    </g>
+    <!-- red awnings over the entrance -->
+    <rect x="430" y="150" width="140" height="14" rx="3" fill="#a4342a"/>
+    <rect x="430" y="150" width="140" height="60" fill="#b9463a" opacity="0.15"/>
+    <!-- entrance doors -->
+    <rect x="460" y="164" width="80" height="76" fill="#3a2f22"/>
+
+    <!-- windows -->
+    <g fill="#a9c7dc" opacity="0.85">
+      <rect x="10" y="110" width="26" height="34" rx="2"/>
+      <rect x="1000" y="110" width="26" height="34" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Place du Casino plaza with fountain and palms -->
+  <rect x="0" y="600" width="1600" height="120" fill="url(#plaza)"/>
+  <ellipse cx="800" cy="640" rx="140" ry="26" fill="#e9e2c4" stroke="#b7a874" stroke-width="2"/>
+  <ellipse cx="800" cy="640" rx="80" ry="15" fill="#8fb6cf" opacity="0.8"/>
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="800" cy="620" r="5"/>
+    <circle cx="790" cy="628" r="3"/>
+    <circle cx="812" cy="626" r="3"/>
+  </g>
+
+  <!-- palm trees flanking the plaza -->
+  <g>
+    <g transform="translate(140,560)">
+      <rect x="-4" y="0" width="8" height="70" fill="#7a5c3a"/>
+      <g fill="#4c7a52">
+        <ellipse cx="0" cy="-6" rx="34" ry="10" transform="rotate(-18)"/>
+        <ellipse cx="0" cy="-6" rx="34" ry="10" transform="rotate(18)"/>
+        <ellipse cx="0" cy="-6" rx="34" ry="10" transform="rotate(50)"/>
+        <ellipse cx="0" cy="-6" rx="34" ry="10" transform="rotate(-50)"/>
+        <ellipse cx="0" cy="-10" rx="10" ry="26"/>
+      </g>
+    </g>
+    <g transform="translate(1460,560)">
+      <rect x="-4" y="0" width="8" height="70" fill="#7a5c3a"/>
+      <g fill="#4c7a52">
+        <ellipse cx="0" cy="-6" rx="34" ry="10" transform="rotate(-18)"/>
+        <ellipse cx="0" cy="-6" rx="34" ry="10" transform="rotate(18)"/>
+        <ellipse cx="0" cy="-6" rx="34" ry="10" transform="rotate(50)"/>
+        <ellipse cx="0" cy="-6" rx="34" ry="10" transform="rotate(-50)"/>
+        <ellipse cx="0" cy="-10" rx="10" ry="26"/>
+      </g>
+    </g>
+    <g transform="translate(260,585)">
+      <rect x="-3" y="0" width="6" height="50" fill="#7a5c3a"/>
+      <g fill="#588a5e">
+        <ellipse cx="0" cy="-4" rx="24" ry="7" transform="rotate(-18)"/>
+        <ellipse cx="0" cy="-4" rx="24" ry="7" transform="rotate(18)"/>
+        <ellipse cx="0" cy="-4" rx="24" ry="7" transform="rotate(50)"/>
+        <ellipse cx="0" cy="-8" rx="7" ry="18"/>
+      </g>
+    </g>
+    <g transform="translate(1340,585)">
+      <rect x="-3" y="0" width="6" height="50" fill="#7a5c3a"/>
+      <g fill="#588a5e">
+        <ellipse cx="0" cy="-4" rx="24" ry="7" transform="rotate(-18)"/>
+        <ellipse cx="0" cy="-4" rx="24" ry="7" transform="rotate(18)"/>
+        <ellipse cx="0" cy="-4" rx="24" ry="7" transform="rotate(50)"/>
+        <ellipse cx="0" cy="-8" rx="7" ry="18"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- cobbled drop-off road in the foreground -->
+  <path d="M0 700 C 400 672 1200 672 1600 700 L1600 900 L0 900 Z" fill="#c9c0a0"/>
+  <path d="M0 700 C 400 672 1200 672 1600 700" fill="none" stroke="#c9a24b" stroke-width="4" opacity="0.6"/>
+
+  <!-- chauffeur-driven sedan waiting at the casino entrance -->
+  <g transform="translate(560,700)">
+    <ellipse cx="240" cy="128" rx="230" ry="24" fill="#000" opacity="0.22"/>
+    <path d="M20 96 C20 70 42 54 72 52 L118 48 C150 14 200 -8 250 -10 L340 -10 C378 -8 410 10 434 36 L494 46 C520 50 540 64 544 88 L546 100 L20 100 Z"
+          fill="#15161a" stroke="#2a2a2e" stroke-width="2"/>
+    <path d="M120 50 C146 20 186 0 228 -2 L318 -2 C348 0 372 14 392 34 L392 50 Z" fill="#4a545c" opacity="0.85"/>
+    <circle cx="118" cy="100" r="30" fill="#020202" stroke="#242424" stroke-width="3"/>
+    <circle cx="440" cy="100" r="30" fill="#020202" stroke="#242424" stroke-width="3"/>
+    <circle cx="118" cy="100" r="12" fill="#8a8f96"/>
+    <circle cx="440" cy="100" r="12" fill="#8a8f96"/>
+    <ellipse cx="26" cy="70" rx="10" ry="6" fill="#fff6d8"/>
+    <ellipse cx="530" cy="66" rx="8" ry="5" fill="#c9a24b"/>
+  </g>
+</svg>
