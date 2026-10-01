@@ -3,6 +3,8 @@
 /coverage/
 /out/
 /build/
+/.vscode/
 .env*
 !.env.example
 npm-debug.log*
+*.tsbuildinfo
