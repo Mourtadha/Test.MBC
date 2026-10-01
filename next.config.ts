@@ -16,6 +16,7 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   agentRules: false,
+  output: "standalone",
   images: {
     // Local placeholder illustrations are SVG; safe since they are bundled, not user-uploaded.
     dangerouslyAllowSVG: true,
